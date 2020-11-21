@@ -27,7 +27,12 @@ Table of contents
 COLORS
 -------------------------------------------------------------------
 */
-
+.shadow {
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05)
+}
+.extra-content, .nav:not(.ms-rounded) li > a::before, .boxed.advs-box-top-icon-img .advs-box-content, [class*="col-md-"].boxed, .advs-box-side-img hr, .mi-menu .sidebar-nav, .advs-box-top-icon-img.niche-box-post::after, .accordion-list .list-group-item::before, [class*="header-"] .title-base h1::before, .woocommerce .product span.onsale, .circle-button, .btn.circle-button, .btn, .header-bootstrap, .header-title hr, .advs-box.boxed, i.circle, .intro-box::after, .intro-box::before, .advs-box-side-img hr, .call-action-box, .title-base hr, .nav.inner.ms-mini, .bg-color, .header-title.white .title-base hr, .header-animation.white .title-base hr, .title-base .scroll-top, .title-modern .scroll-top, i.square, .header-base, .progress-bar, .tagbox span, .niche-box-post .block-infos .block-data, .header-base .title-base h1::before {
+    background-color: #F3B007;
+}
 
 .nav:not(.ms-rounded) li > a:before, .btn, i.circle {
     background-color: #F3B007;
@@ -56,7 +61,12 @@ header .btn-search:hover {
 .btn, .btn:hover {
     color: #fff;
 }
-
+.color-orange {
+    color: #F3B007;
+}
+.color-orange:hover {
+    color: #F3B007;
+}
 .navbar-mini {
     background-color: #f7f7f7;
 }
@@ -138,10 +148,10 @@ h2 {
 }
 h2 span {
     display: block;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 42px;
-    font-weight: 500;
-    color: #f8981d;
+    font-weight: 400;
+    color: #f39f07;
 }
 
 .scroll-top-mobile {
@@ -179,7 +189,7 @@ HEADER AND MENUS
     }
 
 .navbar-brand {
-    height: 70px;
+    height: 60px;
 }
 
 .nav .caret:before {
@@ -210,6 +220,7 @@ HEADER AND MENUS
 
     .navbar-mini .navbar-left {
         padding-top: 10px;
+        padding-left: 13%;
     }
 
     .navbar-mini span i {
@@ -265,7 +276,7 @@ HEADER AND MENUS
 }
 
 .navbar-mini:not(.hidden) + .navbar-main .navbar-brand {
-    margin-top: 10px;
+    margin-top: 15px;
 }
 /*
 -------------------------------------------------------------------
@@ -273,10 +284,39 @@ TITLES
 -------------------------------------------------------------------
 */
 
-.section-about {
+.section-about,
+.section-work {
     padding: 60px 0;
-    background: #fff;
+    background: #f8f8f8;
 }
+.progress {
+    overflow: visible;
+    height: 3px;
+    background-color: #e8e8e8;
+}
+
+.progress-bar {
+    box-shadow: none !important;
+    color: #30353b;
+    height: 3px;
+}
+
+    .progress-bar > span {
+        padding: 2px 0 2px 5px;
+        width: 60px;
+        transform: translateY(-31px);
+        border-radius: 3px;
+        display: block;
+        white-space: nowrap;
+        font-weight: 500;
+        letter-spacing: 1px;
+        float: right;
+        font-size: 12px;
+        background: #2d2d2d;
+        color: #fff;
+        text-align: center;
+    }
+
 
 /*
 -------------------------------------------------------------------

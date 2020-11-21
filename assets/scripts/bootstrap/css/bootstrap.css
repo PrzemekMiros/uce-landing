@@ -3514,7 +3514,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-brand {
   float: left;
-  padding: 15px 15px;
+  padding: 22px 0px 11px 0px;
   font-size: 18px;
   line-height: 20px;
   height: 50px;
@@ -3529,7 +3529,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 @media (min-width: 993px) {
   .navbar > .container .navbar-brand,
   .navbar > .container-fluid .navbar-brand {
-    margin-left: -15px;
+    margin-left: 0px;
   }
 }
 .navbar-toggle {
