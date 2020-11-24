@@ -575,6 +575,10 @@ div.content {
     .about-card {
         width: 100%;
     }
+    .about-card a {
+
+        margin-right: 15px;
+    }
     .about-card-shadow {
         padding: 45px;
         background: #fff;
