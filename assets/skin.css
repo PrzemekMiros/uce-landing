@@ -108,11 +108,11 @@ p {
 }
 
 .text-xl {
-    line-height: 60px;
-    font-size: 55px !important;
-    font-weight: 900;
+    font-size: 65px !important;
+    font-weight: 600;
     letter-spacing: 1px;
     color: #fff;
+    line-height: 1.1;
 }
 
 .bottom {
