@@ -576,8 +576,7 @@ div.content {
         width: 100%;
     }
     .about-card a {
-
-        margin-right: 15px;
+        margin-right: 9px;
     }
     .about-card-shadow {
         padding: 45px;
@@ -607,9 +606,7 @@ div.content {
         padding: 80px 0;
     }
 
-    .section-bg-image2 a {
-        margin-top: 9px;
-    }
+
     .section-bg-image3 {
         min-height: 109vh;
     }
