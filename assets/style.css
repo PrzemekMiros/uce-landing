@@ -599,6 +599,13 @@ div.content {
         min-height: 100vh;
         background-size: cover;
     }
+    .section-bg-image2 {
+        padding: 80px 0;
+    }
+
+    .section-bg-image2 a {
+        margin-top: 9px;
+    }
     .section-bg-image3 {
         min-height: 109vh;
     }
