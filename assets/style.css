@@ -234,6 +234,21 @@ header > .navbar {
     height: 70px!important;
 }
 
+.section-bg-image1 {
+    position: relative;
+}
+
+.section-bg-image1::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: #000;
+    opacity: 0.4;
+}
+
 .navbar-nav > li:hover > a, .navbar-default .navbar-nav > li > a:hover {
     color: #171717;
     background: rgba(199,199,199,0.15);
