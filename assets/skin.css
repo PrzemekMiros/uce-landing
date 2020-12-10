@@ -117,14 +117,14 @@ p {
 
 .bottom {
     position: absolute;
-    bottom: 8%;  
+    bottom: 7%;  
     z-index: 9;
 }
 .bottom a {
     display: block;
 height: min-content;
 position: absolute;
-top: 35px;
+top: 24px;
 right: 3px;
 }
 .bottom p {
