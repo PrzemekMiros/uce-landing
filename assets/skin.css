@@ -1,23 +1,4 @@
-/*
--------------------------------------------------------------------
-Skin: Yellow Business
--------------------------------------------------------------------
 
-Table of contents
-
-1. Colors  [Row 30] 
-2. Custom classes [Row 226] 
-3. Layout and typography [Row 427] 
-4. Headers and menu [Row 524] 
-5. Titles [Row 724] 
-6. Footer [Row 809] 
-7. Components [Row 860] 
-8. Containers [Row 1526] 
-9. Mobile / responsive [Row 1701] 
-
--------------------------------------------------------------------
-
-*/
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900');
 
@@ -108,13 +89,27 @@ p {
 }
 
 .text-xl {
-    font-size: 65px !important;
+    font-size: 32px;
     font-weight: 600;
     letter-spacing: 1px;
     color: #fff;
     line-height: 1.1;
 }
+@media(min-width:768px) {
+    .text-xl {
+        font-size: 55px !important;
+    }
 
+}
+@media(min-width:994px) {
+    .text-xl {
+        font-size: 65px !important;
+    }
+    .col-md-4 {
+        width: 33%;
+        float: left;
+    }
+}
 .bottom {
     position: absolute;
     bottom: 7%;  
@@ -290,8 +285,10 @@ TITLES
 
 .section-about,
 .section-work {
+    position: relative;
     padding: 60px 0;
     background: #f8f8f8;
+    z-index: 9;
 }
 .progress {
     overflow: visible;
@@ -386,11 +383,6 @@ footer {
 
     header .navbar-main ul {
         padding: 10px 0 0 0 !important;
-    }
-
-    .text-m-sm {
-        font-size: 30px !important;
-        line-height: 35px;
     }
 
     h2 {
