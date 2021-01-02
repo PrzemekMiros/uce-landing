@@ -1200,7 +1200,8 @@ hr {
         width: 100%;
         -*/
       }
-      .hsContent {
+      .hsContent,
+      .hsContent2 {
         opacity: 1!important;
         padding-top: 50px;
       }
@@ -1226,16 +1227,24 @@ hr {
       }
       .hsContent {
         position: fixed;
-        right: 11%;
         top: 22%;
         z-index: 1;
       }
-      #slide-4 .hsContent {
+      .hsContent2 {
+        position: fixed;
+        right: 11%;
+        z-index: 1;
+      }
+      #slide-4 .hsContent2 {
         position: fixed;
         top: 100px;
       }
 }
-  
+@media(min-width:360px) {
+    .hide-mob-xs {
+        display: none;
+    }
+}
   .hsContainer {
       /*-
     width: 100%;
