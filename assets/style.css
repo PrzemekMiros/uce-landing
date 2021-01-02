@@ -763,7 +763,7 @@ div.content {
             font-size: 32px;
         }
         .about-card-shadow {
-            padding: 25px;
+            padding: 25px 25px 15px 25px;
             box-shadow: 0 0 20px #00000015;
         }
         .mobnone {
@@ -772,7 +772,7 @@ div.content {
     }
 @media(min-width:768px) {
     .about-card-shadow {
-        padding: 45px;
+        padding: 45px 45px 35px 45px;
         box-shadow: 0 0 20px #00000015;
     }
     .col-md-6 {
@@ -1048,6 +1048,7 @@ COMPONENTS - RESPONSIVE
     .flex-center {
         display: flex;
         justify-content: center;
+        align-items: center;
     }
 }
     .vertical-row {
